@@ -1,0 +1,60 @@
+/*
+  # Add Family-Friendly Quests
+
+  1. Changes
+    - Add 50 new family-friendly quests
+    - Points range from 1-5 based on difficulty and complexity
+    - Categories include: arts, music, sports, social, building, and exploration
+*/
+
+INSERT INTO public.quests (title, description, points) VALUES
+    ('Draw Your Favorite Animal', 'Create a detailed drawing of your favorite animal', 1),
+    ('Twinkle Star Performance', 'Sing "Twinkle Twinkle Little Star" with actions', 1),
+    ('LEGO Tower Challenge', 'Build a LEGO structure taller than you', 3),
+    ('Holiday Memory Interview', 'Ask an adult about their favorite holiday memory', 2),
+    ('Hockey Trick Master', 'Perform 3 hockey stick tricks', 4),
+    ('Jungle Theater', 'Create a play about animals in the jungle', 5),
+    ('Leaf Collection', 'Collect 5 leaves of different shapes', 2),
+    ('Pirate Adventure', 'Pretend you are a pirate looking for treasure', 3),
+    ('Resolution Chat', 'Ask an adult about their New Year''s resolutions', 2),
+    ('Speed Building', 'Build a house in Minecraft in 5 minutes', 3),
+    ('Heartfelt Card', 'Make a card for a friend or family member', 2),
+    ('Movie Song Performance', 'Sing your favorite song from a movie', 2),
+    ('Jump Rope Challenge', 'Jump rope 20 times without stopping', 3),
+    ('Book Chat', 'Ask an adult about their favorite book', 1),
+    ('Hockey Puck Spin', 'Try to spin a hockey puck on its side', 3),
+    ('Superhero Show', 'Create a puppet show about a superhero', 4),
+    ('Rock Safari', 'Find a rock shaped like an animal', 2),
+    ('Mars Explorer', 'Pretend you are an astronaut exploring Mars', 3),
+    ('Dream Vacation', 'Ask an adult about their dream vacation', 2),
+    ('Star Formation', 'Gather 10 sticks and arrange them in a star shape', 3),
+    ('Favorite Place Art', 'Paint a picture of your favorite place', 3),
+    ('National Anthem', 'Perform the national anthem', 4),
+    ('Blanket Fort', 'Build a fort with chairs and blankets', 5),
+    ('Joke Exchange', 'Ask an adult to tell you their favorite joke', 1),
+    ('Hockey Puck Control', 'Dribble a hockey puck 15 times in a row', 3),
+    ('Movie Scene Acting', 'Act out your favorite scene from a movie', 4),
+    ('Flower Collection', 'Collect 3 different types of flowers', 3),
+    ('Chef Pretend', 'Pretend you are a chef creating a new recipe', 2),
+    ('Food Chat', 'Ask an adult about their favorite food', 1),
+    ('Minecraft Treehouse', 'Build a treehouse in Minecraft', 4),
+    ('Superhero Comic', 'Draw a comic strip about a superhero', 4),
+    ('Weather Song', 'Sing a song about the weather', 1),
+    ('Balance Challenge', 'Balance on one foot for 30 seconds', 2),
+    ('Season Chat', 'Ask an adult about their favorite season', 1),
+    ('Hockey Goal Challenge', 'Shoot 10 hockey pucks into a goal', 5),
+    ('Beach Theater', 'Create a play about a day at the beach', 4),
+    ('Bug Observer', 'Find an insect and observe it carefully', 3),
+    ('Wizard Adventure', 'Pretend you are a wizard casting spells', 3),
+    ('Childhood Games', 'Ask an adult about their favorite childhood game', 2),
+    ('Minecraft World Builder', 'Create a Minecraft world for your friends', 5),
+    ('Friendship Bracelet', 'Make a bracelet using beads or string', 3),
+    ('Animal Choir', 'Sing a song using only animal sounds', 3),
+    ('Race Time', 'Run a race with a friend or sibling', 2),
+    ('New Year Chat', 'Ask an adult what they like most about the New Year', 1),
+    ('Hockey Juggle', 'Juggle a hockey puck 5 times without dropping it', 4),
+    ('Robot Theater', 'Write a short play about robots', 4),
+    ('Clean Earth', 'Pick up 5 pieces of trash outside to help clean up', 2),
+    ('Teacher Pretend', 'Pretend you are a teacher giving a lesson', 2),
+    ('Goal Setting', 'Ask an adult about their goals for the year', 2),
+    ('Minecraft Coaster', 'Build a rollercoaster in Minecraft', 5);
